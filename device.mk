@@ -293,10 +293,6 @@ TARGET_COMMON_QTI_COMPONENTS += \
     wfd \
     wlan
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3.vendor
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \

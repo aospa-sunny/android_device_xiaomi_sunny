@@ -152,7 +152,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # Media Codec2
 debug.media.codec2=2
-debug.stagefright.omx_default_rank=512
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
@@ -168,7 +167,6 @@ persist.vendor.radio.enable_temp_dds=true
 
 # USB
 vendor.usb.diag.func.name=diag
-vendor.usb.qdss.inst.name=qdss_sw
 vendor.usb.use_ffs_mtp=0
 vendor.usb.use_gadget_hal=0
 

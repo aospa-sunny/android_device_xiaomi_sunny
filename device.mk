@@ -210,10 +210,6 @@ PRODUCT_PACKAGES += \
     FM2 \
     qcom.fmradio
 
-# Gatekeeper
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
-
 PRODUCT_PACKAGES += \
     libgnss
 
@@ -232,11 +228,6 @@ PRODUCT_PACKAGES += \
 # irqbalance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
-
-# Keymaster
-PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -346,6 +337,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     charging \
     display \
     gps \
+    keymaster \
     perf
 
 # Power

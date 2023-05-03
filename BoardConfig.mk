@@ -116,21 +116,11 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
-BOARD_KERNEL_CMDLINE += init.is_inline=1
-BOARD_KERNEL_CMDLINE += init.is_dt2w_sensor=1
-BOARD_KERNEL_CMDLINE += init.is_st2w_sensor=1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CLANG_COMPILE := false
-TARGET_KERNEL_NEW_GCC_COMPILE := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
-TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := arm-eabi-
-KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/aarch64-elf/bin
-TARGET_KERNEL_LLVM_BINUTILS := true
-TARGET_KERNEL_USE_IAS := false
-TARGET_KERNEL_CONFIG := neternels_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sunny
+KERNEL_DEFCONFIG := mojito_defconfig
+USE_KERNEL_AOSP_LLVM := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Media

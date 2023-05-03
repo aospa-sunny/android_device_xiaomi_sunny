@@ -387,6 +387,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     adreno \
     av \
     bt \
+    charging \
     perf
 
 # Power

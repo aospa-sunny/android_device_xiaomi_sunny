@@ -677,7 +677,6 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.sm6150.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so

@@ -162,11 +162,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 PRODUCT_PACKAGES += \
-    libgnss
-
-PRODUCT_PACKAGES += \
     apdr.conf \
-    gnss_antenna_info.conf \
     izat.conf \
     lowi.conf \
     sap.conf

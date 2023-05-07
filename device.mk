@@ -235,6 +235,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     display \
     dsprpcd \
     gps \
+    init \
     keymaster \
     media \
     perf \
@@ -246,14 +247,13 @@ TARGET_COMMON_QTI_COMPONENTS += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sh \
+    init.sunny.post_boot.sh \
     fstab.qcom \
-    init.qcom.rc \
-    init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.sunny.rc
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.post_boot.custom=true
 
 # RIL
 PRODUCT_PACKAGES += \

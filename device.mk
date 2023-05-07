@@ -122,10 +122,7 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Display
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0.vendor \
-    disable_configstore \
-    gralloc.default \
-    libdisplayconfig.qti
+    android.frameworks.displayservice@1.0.vendor
 
 # DisplayFeatures
 PRODUCT_PACKAGES += \

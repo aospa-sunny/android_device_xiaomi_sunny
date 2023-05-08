@@ -243,6 +243,9 @@ TARGET_COMMON_QTI_COMPONENTS += \
     wlan
 
 # Ramdisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/fstab_AB.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
+
 PRODUCT_PACKAGES += \
     init.sunny.post_boot.sh \
     fstab.qcom \

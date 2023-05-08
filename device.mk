@@ -206,14 +206,10 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureSunny \
-    CarrierConfigSunny \
-    DisplayFeaturesSunny \
-    FrameworksSunny \
-    SettingsProviderSunny \
-    SettingsSunny \
-    SystemUISunny \
-    TelephonySunny \
-    WifiSunny \
+    FrameworksSunnyAOSPA \
+    SettingsProviderSunnyAOSPA \
+    SettingsSunnyAOSPA \
+    SystemUISunnyAOSPA \
     SettingsOverlayM2101K7AG \
     SettingsOverlayM2101K7AI
 
@@ -238,6 +234,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     init \
     keymaster \
     media \
+    overlay \
     perf \
     telephony \
     usb \

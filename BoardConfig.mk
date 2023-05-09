@@ -108,10 +108,14 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
+BOARD_KERNEL_CMDLINE += init.is_dt2w_sensor=1
+BOARD_KERNEL_CMDLINE += init.is_st2w_sensor=1
 
 BOARD_KERNEL_SEPARATED_DTBO := true
-KERNEL_DEFCONFIG := mojito_defconfig
-USE_KERNEL_AOSP_LLVM := true
+KERNEL_DEFCONFIG := neternels_defconfig
+KERNEL_LLVM_SUPPORT := false
+KERNEL_SD_LLVM_SUPPORT := false
+KERNEL_NEW_GCC_SUPPORT := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # Media

@@ -127,10 +127,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/displayconfig/display_id_4630946773257169537.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946773257169537.xml
 
-# DisplayFeatures
-PRODUCT_PACKAGES += \
-    DisplayFeatures
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \

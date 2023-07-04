@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigSunnyAOSPA \
     FrameworksSunnyAOSPA \
+    ParanoidHubOverlayAOSPA \
     SettingsProviderSunnyAOSPA \
     SettingsSunnyAOSPA \
     SystemUISunnyAOSPA \
@@ -215,6 +216,10 @@ TARGET_COMMON_QTI_COMPONENTS += \
     vibrator \
     wfd \
     wlan
+
+# ParanoidHub
+PRODUCT_PACKAGES += \
+    ParanoidHub
 
 # Ramdisk
 PRODUCT_COPY_FILES += \

@@ -141,8 +141,8 @@ PRODUCT_COPY_FILES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    qcom.fmradio
+    RevampedFMRadio \
+    libqcomfmjni
 
 # GPS Configs
 PRODUCT_COPY_FILES += \

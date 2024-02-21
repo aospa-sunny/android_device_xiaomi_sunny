@@ -596,7 +596,6 @@ vendor/lib64/liblocationservice.so|3470dd742a7ef53a6733db98aa405eaa2bfc59e0
 vendor/lib64/liblocationservice_glue.so|6b6337abc6caadbd78d19712a0b3e0d18173c6f2
 vendor/lib64/liblowi_client.so|79772b0b4a8c08c22480f3513a2fb4a316143328
 vendor/lib64/liblowi_wifihal.so|d0d187f91e03ebec553545847bcad53fb4f2ee56
-vendor/lib64/libqcc_file_agent.so|cd70ce305d5036a027060aa989b0dcbcfab8edb6
 vendor/lib64/libxtadapter.so|76e5e59ea8b54fd1110564467ec7677f8df6d1ca
 vendor/lib64/vendor.qti.gnss@1.0.so|5cc0d0c8e7a8083f5892eb303ab1e6d4c9d66639
 vendor/lib64/vendor.qti.gnss@1.1.so|9a516f4b1b55798f0ec1ebead0c653ad65546517
@@ -606,7 +605,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so|81142c88b15688a671bd372f013dfb2e77d1998d
 vendor/lib64/vendor.qti.gnss@3.0.so|1c0b41eddcc4789e1ea842be02d511afad123a8e
 vendor/lib64/vendor.qti.gnss@4.0-service.so|d20a0fd214eb4f7aa2d4b2c2cd14ea2b120a49f5
 vendor/lib64/vendor.qti.gnss@4.0.so|e38ae43982dc62bf48193a6c3eb2ae385adb37aa
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
 # IMS - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/ims_rtp_daemon|cc8821597578fc476a1acafbe42d790f90f8e77f
@@ -736,6 +734,18 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
 vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
+
+# QCC - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
+vendor/bin/qcc-trd|c3344e5ca092b6e23d68779ecc3d938eacb1c3ec
+vendor/etc/init/init.qdmastats.rc|837b16bf9600715345fc65d5d6c98ce97f2d4583
+vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|0b1e323871e2828b9e8970e42635e3f7999a17e4
+vendor/lib64/libqcc_file_agent.so|cd70ce305d5036a027060aa989b0dcbcfab8edb6
+vendor/lib64/libqdma_file_agent.so|061880c4cd706af3df2bf728bf9d89d2efc83ca2
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|58dd8c5877ba3a274f43f63e6f033213dd84e1c4
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|01b1d11316f5dcd8c1012a55ff01399081c79940
 
 # QMI - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/irsc_util|121deb2d6fd21b122c6a8ca8b30ef167f6b90f61

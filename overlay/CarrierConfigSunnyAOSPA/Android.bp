@@ -1,5 +1,5 @@
 runtime_resource_overlay {
     name: "CarrierConfigSunnyAOSPA",
     theme: "CarrierConfigSunnyAOSPA",
-    product_specific: true,
+    device_specific: true,
 }
